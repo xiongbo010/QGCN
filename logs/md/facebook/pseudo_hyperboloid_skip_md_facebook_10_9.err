@@ -1,0 +1,232 @@
+INFO:root:Using: cuda:0
+INFO:root:Using seed 1234.
+INFO:root:MDModel(
+  (encoder): HGCN(
+    (layers): Sequential(
+      (0): HyperbolicGraphConvolution(
+        (linear): HypLinear(
+          in_features=4040, out_features=10, c=Parameter containing:
+          tensor([-1.], requires_grad=True)
+        )
+        (agg): HypAgg(
+          c=Parameter containing:
+          tensor([-1.], requires_grad=True)
+        )
+        (hyp_act): HypAct(
+          c_in=Parameter containing:
+          tensor([-1.], requires_grad=True), c_out=Parameter containing:
+          tensor([-1.], requires_grad=True)
+        )
+      )
+    )
+  )
+  (decoder): MDDecoder()
+)
+INFO:root:Total number of parameters: 40412
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0005 lr: 0.01 train_loss: 1362318.7500 train_distortion: 0.5888 train_mapscore: 0.2017 train_c: -1.0365 train_max_dist: 2.4292 train_imax: -0.0000 train_imin: -2.1628 time: 4.3819s
+INFO:root:Epoch: 0010 lr: 0.01 train_loss: 1274991.0000 train_distortion: 0.4549 train_mapscore: 0.2820 train_c: -1.0840 train_max_dist: 4.0447 train_imax: -0.0000 train_imin: -3.0066 time: 5.1320s
+INFO:root:Epoch: 0015 lr: 0.01 train_loss: 1210590.0000 train_distortion: 0.3543 train_mapscore: 0.3186 train_c: -1.1359 train_max_dist: 5.3990 train_imax: -0.0000 train_imin: -3.9618 time: 5.4246s
+INFO:root:Epoch: 0020 lr: 0.01 train_loss: 1148035.2500 train_distortion: 0.2717 train_mapscore: 0.3467 train_c: -1.1907 train_max_dist: 7.0919 train_imax: -0.0000 train_imin: -5.1092 time: 5.5075s
+INFO:root:Epoch: 0025 lr: 0.01 train_loss: 1082443.3750 train_distortion: 0.2174 train_mapscore: 0.3686 train_c: -1.2475 train_max_dist: 9.2300 train_imax: -0.0000 train_imin: -7.4002 time: 5.4277s
+INFO:root:Epoch: 0030 lr: 0.01 train_loss: 1014168.8750 train_distortion: 0.2223 train_mapscore: 0.3919 train_c: -1.3052 train_max_dist: 11.9464 train_imax: -0.0000 train_imin: -10.7639 time: 5.3757s
+INFO:root:Epoch: 0035 lr: 0.01 train_loss: 946638.7500 train_distortion: 0.3400 train_mapscore: 0.4204 train_c: -1.3622 train_max_dist: 15.1102 train_imax: -0.0000 train_imin: -14.6872 time: 5.4713s
+INFO:root:Epoch: 0040 lr: 0.01 train_loss: 882395.1250 train_distortion: 0.6533 train_mapscore: 0.4541 train_c: -1.4164 train_max_dist: 18.3004 train_imax: -0.0000 train_imin: -18.8018 time: 5.1242s
+INFO:root:Epoch: 0045 lr: 0.01 train_loss: 824317.5625 train_distortion: 1.3012 train_mapscore: 0.4882 train_c: -1.4656 train_max_dist: 21.6520 train_imax: -0.0000 train_imin: -23.6465 time: 5.7975s
+INFO:root:Epoch: 0050 lr: 0.01 train_loss: 776096.0625 train_distortion: 2.4453 train_mapscore: 0.5230 train_c: -1.5081 train_max_dist: 25.8121 train_imax: -0.0000 train_imin: -30.1339 time: 6.1660s
+INFO:root:Epoch: 0055 lr: 0.01 train_loss: 742641.3125 train_distortion: 4.1849 train_mapscore: 0.5580 train_c: -1.5419 train_max_dist: 30.1288 train_imax: -0.0000 train_imin: -39.1890 time: 5.7544s
+INFO:root:Epoch: 0060 lr: 0.01 train_loss: 724288.7500 train_distortion: 6.2002 train_mapscore: 0.5885 train_c: -1.5644 train_max_dist: 34.2476 train_imax: -0.0000 train_imin: -50.6773 time: 5.4890s
+INFO:root:Epoch: 0065 lr: 0.01 train_loss: 713973.6250 train_distortion: 7.5621 train_mapscore: 0.6109 train_c: -1.5742 train_max_dist: 36.8906 train_imax: -0.0000 train_imin: -63.3783 time: 5.5821s
+INFO:root:Epoch: 0070 lr: 0.01 train_loss: 705843.1250 train_distortion: 7.8675 train_mapscore: 0.6281 train_c: -1.5740 train_max_dist: 37.2615 train_imax: -0.0000 train_imin: -70.3291 time: 6.2061s
+INFO:root:Epoch: 0075 lr: 0.01 train_loss: 699290.1875 train_distortion: 7.6717 train_mapscore: 0.6393 train_c: -1.5685 train_max_dist: 36.5220 train_imax: -0.0000 train_imin: -71.5279 time: 4.7864s
+INFO:root:Epoch: 0080 lr: 0.01 train_loss: 694090.7500 train_distortion: 7.4477 train_mapscore: 0.6478 train_c: -1.5609 train_max_dist: 35.8237 train_imax: -0.0000 train_imin: -69.9539 time: 5.1191s
+INFO:root:Epoch: 0085 lr: 0.01 train_loss: 689934.1250 train_distortion: 7.3623 train_mapscore: 0.6558 train_c: -1.5528 train_max_dist: 35.3850 train_imax: -0.0000 train_imin: -68.6622 time: 5.1721s
+INFO:root:Epoch: 0090 lr: 0.01 train_loss: 686542.8750 train_distortion: 7.3961 train_mapscore: 0.6617 train_c: -1.5446 train_max_dist: 35.3555 train_imax: -0.0000 train_imin: -69.0808 time: 4.5129s
+INFO:root:Epoch: 0095 lr: 0.01 train_loss: 683777.1250 train_distortion: 7.4917 train_mapscore: 0.6670 train_c: -1.5362 train_max_dist: 35.5083 train_imax: -0.0000 train_imin: -70.0340 time: 5.1209s
+INFO:root:Epoch: 0100 lr: 0.01 train_loss: 681228.3750 train_distortion: 7.5911 train_mapscore: 0.6717 train_c: -1.5275 train_max_dist: 35.7825 train_imax: -0.0000 train_imin: -70.9316 time: 5.6740s
+INFO:root:Epoch: 0105 lr: 0.01 train_loss: 679122.5000 train_distortion: 7.6782 train_mapscore: 0.6762 train_c: -1.5183 train_max_dist: 36.0664 train_imax: -0.0000 train_imin: -71.9456 time: 3.4630s
+INFO:root:Epoch: 0110 lr: 0.01 train_loss: 677245.8750 train_distortion: 7.7494 train_mapscore: 0.6803 train_c: -1.5088 train_max_dist: 36.3076 train_imax: -0.0000 train_imin: -72.7962 time: 3.4146s
+INFO:root:Epoch: 0115 lr: 0.01 train_loss: 675446.6250 train_distortion: 7.8042 train_mapscore: 0.6840 train_c: -1.4989 train_max_dist: 36.4375 train_imax: -0.0000 train_imin: -73.4798 time: 3.4303s
+INFO:root:Epoch: 0120 lr: 0.01 train_loss: 673906.6250 train_distortion: 7.8466 train_mapscore: 0.6871 train_c: -1.4886 train_max_dist: 36.5557 train_imax: -0.0000 train_imin: -74.0435 time: 3.4326s
+INFO:root:Epoch: 0125 lr: 0.01 train_loss: 672463.5625 train_distortion: 7.8819 train_mapscore: 0.6901 train_c: -1.4782 train_max_dist: 36.6650 train_imax: -0.0000 train_imin: -74.4150 time: 5.2053s
+INFO:root:Epoch: 0130 lr: 0.01 train_loss: 671147.6250 train_distortion: 7.9150 train_mapscore: 0.6928 train_c: -1.4676 train_max_dist: 36.7500 train_imax: -0.0000 train_imin: -74.7865 time: 4.5008s
+INFO:root:Epoch: 0135 lr: 0.01 train_loss: 670045.0625 train_distortion: 7.9480 train_mapscore: 0.6953 train_c: -1.4567 train_max_dist: 36.8076 train_imax: -0.0000 train_imin: -75.0942 time: 4.9412s
+INFO:root:Epoch: 0140 lr: 0.01 train_loss: 668925.1875 train_distortion: 7.9718 train_mapscore: 0.6974 train_c: -1.4458 train_max_dist: 36.8037 train_imax: -0.0000 train_imin: -75.2668 time: 5.2733s
+INFO:root:Epoch: 0145 lr: 0.01 train_loss: 667880.1250 train_distortion: 7.9944 train_mapscore: 0.6993 train_c: -1.4347 train_max_dist: 36.7607 train_imax: -0.0000 train_imin: -75.3832 time: 4.9709s
+INFO:root:Epoch: 0150 lr: 0.01 train_loss: 666952.0625 train_distortion: 8.0119 train_mapscore: 0.7012 train_c: -1.4234 train_max_dist: 36.6709 train_imax: -0.0000 train_imin: -75.4358 time: 5.3183s
+INFO:root:Epoch: 0155 lr: 0.01 train_loss: 666063.0000 train_distortion: 8.0249 train_mapscore: 0.7029 train_c: -1.4121 train_max_dist: 36.5469 train_imax: -0.0000 train_imin: -75.4390 time: 4.5493s
+INFO:root:Epoch: 0160 lr: 0.01 train_loss: 665233.2500 train_distortion: 8.0364 train_mapscore: 0.7046 train_c: -1.4007 train_max_dist: 36.4072 train_imax: -0.0000 train_imin: -75.4626 time: 5.2366s
+INFO:root:Epoch: 0165 lr: 0.01 train_loss: 664491.0000 train_distortion: 8.0458 train_mapscore: 0.7062 train_c: -1.3892 train_max_dist: 36.2617 train_imax: -0.0000 train_imin: -75.3855 time: 3.3478s
+INFO:root:Epoch: 0170 lr: 0.01 train_loss: 663689.0625 train_distortion: 8.0493 train_mapscore: 0.7075 train_c: -1.3776 train_max_dist: 36.0850 train_imax: -0.0000 train_imin: -75.3380 time: 3.3443s
+INFO:root:Epoch: 0175 lr: 0.01 train_loss: 662922.8750 train_distortion: 8.0527 train_mapscore: 0.7090 train_c: -1.3660 train_max_dist: 35.9170 train_imax: -0.0000 train_imin: -75.2235 time: 4.5649s
+INFO:root:Epoch: 0180 lr: 0.01 train_loss: 662213.9375 train_distortion: 8.0552 train_mapscore: 0.7103 train_c: -1.3544 train_max_dist: 35.7305 train_imax: -0.0000 train_imin: -75.0295 time: 3.2686s
+INFO:root:Epoch: 0185 lr: 0.01 train_loss: 661670.3125 train_distortion: 8.0553 train_mapscore: 0.7116 train_c: -1.3428 train_max_dist: 35.5342 train_imax: -0.0000 train_imin: -74.9516 time: 3.3042s
+INFO:root:Epoch: 0190 lr: 0.01 train_loss: 661021.1875 train_distortion: 8.0492 train_mapscore: 0.7128 train_c: -1.3312 train_max_dist: 35.3223 train_imax: -0.0000 train_imin: -74.7398 time: 4.5292s
+INFO:root:Epoch: 0195 lr: 0.01 train_loss: 660374.7500 train_distortion: 8.0443 train_mapscore: 0.7140 train_c: -1.3197 train_max_dist: 35.1230 train_imax: -0.0000 train_imin: -74.5140 time: 3.2805s
+INFO:root:Epoch: 0200 lr: 0.01 train_loss: 659751.0000 train_distortion: 8.0420 train_mapscore: 0.7151 train_c: -1.3082 train_max_dist: 34.9219 train_imax: -0.0000 train_imin: -74.2824 time: 3.2956s
+INFO:root:Epoch: 0205 lr: 0.01 train_loss: 659152.0000 train_distortion: 8.0398 train_mapscore: 0.7160 train_c: -1.2967 train_max_dist: 34.7256 train_imax: -0.0000 train_imin: -74.1002 time: 5.2451s
+INFO:root:Epoch: 0210 lr: 0.01 train_loss: 658587.5000 train_distortion: 8.0352 train_mapscore: 0.7173 train_c: -1.2853 train_max_dist: 34.5273 train_imax: -0.0000 train_imin: -73.8861 time: 3.2693s
+INFO:root:Epoch: 0215 lr: 0.01 train_loss: 658113.6875 train_distortion: 8.0318 train_mapscore: 0.7183 train_c: -1.2740 train_max_dist: 34.3242 train_imax: -0.0000 train_imin: -73.6944 time: 4.2314s
+INFO:root:Epoch: 0220 lr: 0.01 train_loss: 657748.3750 train_distortion: 8.0207 train_mapscore: 0.7192 train_c: -1.2628 train_max_dist: 34.1152 train_imax: -0.0000 train_imin: -73.4215 time: 3.2998s
+INFO:root:Epoch: 0225 lr: 0.01 train_loss: 657158.6250 train_distortion: 8.0098 train_mapscore: 0.7203 train_c: -1.2516 train_max_dist: 33.9033 train_imax: -0.0000 train_imin: -73.1977 time: 3.2609s
+INFO:root:Epoch: 0230 lr: 0.01 train_loss: 656666.2500 train_distortion: 8.0017 train_mapscore: 0.7212 train_c: -1.2406 train_max_dist: 33.7041 train_imax: -0.0000 train_imin: -72.9182 time: 4.7810s
+INFO:root:Epoch: 0235 lr: 0.01 train_loss: 656181.0000 train_distortion: 7.9933 train_mapscore: 0.7219 train_c: -1.2297 train_max_dist: 33.5029 train_imax: -0.0000 train_imin: -72.7411 time: 3.2571s
+INFO:root:Epoch: 0240 lr: 0.01 train_loss: 655746.0000 train_distortion: 7.9871 train_mapscore: 0.7227 train_c: -1.2190 train_max_dist: 33.3076 train_imax: -0.0000 train_imin: -72.5300 time: 3.3852s
+INFO:root:Epoch: 0245 lr: 0.01 train_loss: 655307.0625 train_distortion: 7.9792 train_mapscore: 0.7237 train_c: -1.2084 train_max_dist: 33.1113 train_imax: -0.0000 train_imin: -72.3046 time: 4.2842s
+INFO:root:Epoch: 0250 lr: 0.01 train_loss: 654911.8750 train_distortion: 7.9706 train_mapscore: 0.7245 train_c: -1.1979 train_max_dist: 32.9150 train_imax: -0.0000 train_imin: -72.1602 time: 3.2793s
+INFO:root:Epoch: 0255 lr: 0.01 train_loss: 654575.6250 train_distortion: 7.9612 train_mapscore: 0.7252 train_c: -1.1876 train_max_dist: 32.7188 train_imax: -0.0000 train_imin: -71.9265 time: 3.2576s
+INFO:root:Epoch: 0260 lr: 0.01 train_loss: 654172.6875 train_distortion: 7.9497 train_mapscore: 0.7258 train_c: -1.1775 train_max_dist: 32.5264 train_imax: -0.0000 train_imin: -71.7166 time: 3.2273s
+INFO:root:Epoch: 0265 lr: 0.01 train_loss: 653823.2500 train_distortion: 7.9401 train_mapscore: 0.7264 train_c: -1.1676 train_max_dist: 32.3252 train_imax: -0.0000 train_imin: -71.5865 time: 3.2217s
+INFO:root:Epoch: 0270 lr: 0.01 train_loss: 653417.7500 train_distortion: 7.9309 train_mapscore: 0.7271 train_c: -1.1578 train_max_dist: 32.1367 train_imax: -0.0000 train_imin: -71.3839 time: 3.1885s
+INFO:root:Epoch: 0275 lr: 0.01 train_loss: 653000.3750 train_distortion: 7.9246 train_mapscore: 0.7276 train_c: -1.1483 train_max_dist: 31.9551 train_imax: -0.0000 train_imin: -71.1797 time: 3.2280s
+INFO:root:Epoch: 0280 lr: 0.01 train_loss: 652624.3750 train_distortion: 7.9189 train_mapscore: 0.7283 train_c: -1.1389 train_max_dist: 31.7725 train_imax: -0.0000 train_imin: -71.0814 time: 3.1863s
+INFO:root:Epoch: 0285 lr: 0.01 train_loss: 652318.9375 train_distortion: 7.9136 train_mapscore: 0.7289 train_c: -1.1298 train_max_dist: 31.5986 train_imax: -0.0000 train_imin: -70.9345 time: 3.2000s
+INFO:root:Epoch: 0290 lr: 0.01 train_loss: 652152.3125 train_distortion: 7.9068 train_mapscore: 0.7294 train_c: -1.1209 train_max_dist: 31.4170 train_imax: -0.0000 train_imin: -70.7124 time: 3.1787s
+INFO:root:Epoch: 0295 lr: 0.01 train_loss: 651829.7500 train_distortion: 7.8940 train_mapscore: 0.7298 train_c: -1.1121 train_max_dist: 31.2373 train_imax: -0.0000 train_imin: -70.5475 time: 4.2589s
+INFO:root:Epoch: 0300 lr: 0.01 train_loss: 651438.8750 train_distortion: 7.8839 train_mapscore: 0.7303 train_c: -1.1036 train_max_dist: 31.0703 train_imax: -0.0000 train_imin: -70.2797 time: 4.2470s
+INFO:root:Epoch: 0305 lr: 0.01 train_loss: 651096.0625 train_distortion: 7.8800 train_mapscore: 0.7310 train_c: -1.0954 train_max_dist: 30.9121 train_imax: -0.0000 train_imin: -70.1343 time: 4.2791s
+INFO:root:Epoch: 0310 lr: 0.01 train_loss: 650787.5000 train_distortion: 7.8769 train_mapscore: 0.7315 train_c: -1.0874 train_max_dist: 30.7500 train_imax: -0.0000 train_imin: -69.9584 time: 4.2465s
+INFO:root:Epoch: 0315 lr: 0.01 train_loss: 650517.7500 train_distortion: 7.8732 train_mapscore: 0.7319 train_c: -1.0796 train_max_dist: 30.5820 train_imax: -0.0000 train_imin: -69.8617 time: 4.3000s
+INFO:root:Epoch: 0320 lr: 0.01 train_loss: 650436.5000 train_distortion: 7.8671 train_mapscore: 0.7324 train_c: -1.0721 train_max_dist: 30.4219 train_imax: -0.0000 train_imin: -69.7876 time: 4.3256s
+INFO:root:Epoch: 0325 lr: 0.01 train_loss: 650090.0625 train_distortion: 7.8587 train_mapscore: 0.7330 train_c: -1.0648 train_max_dist: 30.2695 train_imax: -0.0000 train_imin: -69.6799 time: 4.2860s
+INFO:root:Epoch: 0330 lr: 0.01 train_loss: 649790.8125 train_distortion: 7.8538 train_mapscore: 0.7335 train_c: -1.0577 train_max_dist: 30.1201 train_imax: -0.0000 train_imin: -69.5803 time: 4.2718s
+INFO:root:Epoch: 0335 lr: 0.01 train_loss: 649488.9375 train_distortion: 7.8506 train_mapscore: 0.7342 train_c: -1.0509 train_max_dist: 29.9756 train_imax: -0.0000 train_imin: -69.4660 time: 4.1867s
+INFO:root:Epoch: 0340 lr: 0.01 train_loss: 649276.3750 train_distortion: 7.8501 train_mapscore: 0.7347 train_c: -1.0443 train_max_dist: 29.8418 train_imax: -0.0000 train_imin: -69.3878 time: 4.1751s
+INFO:root:Epoch: 0345 lr: 0.01 train_loss: 649078.6250 train_distortion: 7.8490 train_mapscore: 0.7351 train_c: -1.0380 train_max_dist: 29.7300 train_imax: -0.0000 train_imin: -69.3262 time: 4.1989s
+INFO:root:Epoch: 0350 lr: 0.01 train_loss: 648885.8750 train_distortion: 7.8438 train_mapscore: 0.7354 train_c: -1.0319 train_max_dist: 29.6211 train_imax: -0.0000 train_imin: -69.2513 time: 4.2743s
+INFO:root:Epoch: 0355 lr: 0.01 train_loss: 648631.3125 train_distortion: 7.8412 train_mapscore: 0.7357 train_c: -1.0261 train_max_dist: 29.5020 train_imax: -0.0000 train_imin: -69.0584 time: 4.2432s
+INFO:root:Epoch: 0360 lr: 0.01 train_loss: 648385.8750 train_distortion: 7.8414 train_mapscore: 0.7360 train_c: -1.0205 train_max_dist: 29.4087 train_imax: -0.0000 train_imin: -68.9783 time: 4.2212s
+INFO:root:Epoch: 0365 lr: 0.01 train_loss: 648216.5625 train_distortion: 7.8402 train_mapscore: 0.7364 train_c: -1.0151 train_max_dist: 29.3169 train_imax: -0.0000 train_imin: -68.8750 time: 4.1759s
+INFO:root:Epoch: 0370 lr: 0.01 train_loss: 647966.0000 train_distortion: 7.8412 train_mapscore: 0.7369 train_c: -1.0100 train_max_dist: 29.2256 train_imax: -0.0000 train_imin: -68.7572 time: 4.1649s
+INFO:root:Epoch: 0375 lr: 0.01 train_loss: 647733.0000 train_distortion: 7.8422 train_mapscore: 0.7373 train_c: -1.0051 train_max_dist: 29.1387 train_imax: -0.0000 train_imin: -68.6536 time: 4.2304s
+INFO:root:Epoch: 0380 lr: 0.01 train_loss: 647556.2500 train_distortion: 7.8450 train_mapscore: 0.7377 train_c: -1.0004 train_max_dist: 29.0527 train_imax: -0.0000 train_imin: -68.6053 time: 4.2491s
+INFO:root:Epoch: 0385 lr: 0.01 train_loss: 647381.7500 train_distortion: 7.8466 train_mapscore: 0.7380 train_c: -0.9959 train_max_dist: 28.9722 train_imax: -0.0000 train_imin: -68.5043 time: 4.1342s
+INFO:root:Epoch: 0390 lr: 0.01 train_loss: 647300.9375 train_distortion: 7.8480 train_mapscore: 0.7383 train_c: -0.9917 train_max_dist: 28.8984 train_imax: -0.0000 train_imin: -68.3646 time: 4.2370s
+INFO:root:Epoch: 0395 lr: 0.01 train_loss: 647101.8125 train_distortion: 7.8447 train_mapscore: 0.7384 train_c: -0.9876 train_max_dist: 28.8271 train_imax: -0.0000 train_imin: -68.2013 time: 4.1800s
+INFO:root:Epoch: 0400 lr: 0.01 train_loss: 646877.1250 train_distortion: 7.8467 train_mapscore: 0.7387 train_c: -0.9838 train_max_dist: 28.7520 train_imax: -0.0000 train_imin: -68.0281 time: 4.2473s
+INFO:root:Epoch: 0405 lr: 0.01 train_loss: 646639.1250 train_distortion: 7.8500 train_mapscore: 0.7391 train_c: -0.9802 train_max_dist: 28.6855 train_imax: -0.0000 train_imin: -67.9422 time: 4.1732s
+INFO:root:Epoch: 0410 lr: 0.01 train_loss: 646437.3125 train_distortion: 7.8569 train_mapscore: 0.7393 train_c: -0.9767 train_max_dist: 28.6162 train_imax: -0.0000 train_imin: -67.8355 time: 4.2174s
+INFO:root:Epoch: 0415 lr: 0.01 train_loss: 646319.4375 train_distortion: 7.8619 train_mapscore: 0.7395 train_c: -0.9735 train_max_dist: 28.5659 train_imax: -0.0000 train_imin: -67.7815 time: 4.1627s
+INFO:root:Epoch: 0420 lr: 0.01 train_loss: 646152.8125 train_distortion: 7.8664 train_mapscore: 0.7397 train_c: -0.9704 train_max_dist: 28.5117 train_imax: -0.0000 train_imin: -67.6531 time: 4.1789s
+INFO:root:Epoch: 0425 lr: 0.01 train_loss: 646001.1250 train_distortion: 7.8724 train_mapscore: 0.7400 train_c: -0.9675 train_max_dist: 28.4575 train_imax: -0.0000 train_imin: -67.4978 time: 4.0183s
+INFO:root:Epoch: 0430 lr: 0.01 train_loss: 645918.3750 train_distortion: 7.8753 train_mapscore: 0.7401 train_c: -0.9648 train_max_dist: 28.4092 train_imax: -0.0000 train_imin: -67.3693 time: 4.1423s
+INFO:root:Epoch: 0435 lr: 0.01 train_loss: 645761.5625 train_distortion: 7.8781 train_mapscore: 0.7405 train_c: -0.9622 train_max_dist: 28.3535 train_imax: -0.0000 train_imin: -67.2317 time: 4.1340s
+INFO:root:Epoch: 0440 lr: 0.01 train_loss: 645497.5000 train_distortion: 7.8833 train_mapscore: 0.7408 train_c: -0.9598 train_max_dist: 28.3076 train_imax: -0.0000 train_imin: -67.0639 time: 4.0825s
+INFO:root:Epoch: 0445 lr: 0.01 train_loss: 645314.8750 train_distortion: 7.8913 train_mapscore: 0.7411 train_c: -0.9576 train_max_dist: 28.2666 train_imax: -0.0000 train_imin: -67.0082 time: 4.1490s
+INFO:root:Epoch: 0450 lr: 0.01 train_loss: 645191.3125 train_distortion: 7.9007 train_mapscore: 0.7411 train_c: -0.9555 train_max_dist: 28.2295 train_imax: -0.0000 train_imin: -66.8676 time: 4.1320s
+INFO:root:Epoch: 0455 lr: 0.01 train_loss: 645077.1875 train_distortion: 7.9076 train_mapscore: 0.7415 train_c: -0.9536 train_max_dist: 28.1909 train_imax: -0.0000 train_imin: -66.7408 time: 4.0953s
+INFO:root:Epoch: 0460 lr: 0.01 train_loss: 644988.8750 train_distortion: 7.9138 train_mapscore: 0.7416 train_c: -0.9518 train_max_dist: 28.1475 train_imax: -0.0000 train_imin: -66.6090 time: 4.1131s
+INFO:root:Epoch: 0465 lr: 0.01 train_loss: 644859.3750 train_distortion: 7.9184 train_mapscore: 0.7417 train_c: -0.9500 train_max_dist: 28.1182 train_imax: -0.0000 train_imin: -66.4124 time: 4.0581s
+INFO:root:Epoch: 0470 lr: 0.01 train_loss: 644669.6875 train_distortion: 7.9249 train_mapscore: 0.7420 train_c: -0.9485 train_max_dist: 28.0762 train_imax: -0.0000 train_imin: -66.3115 time: 4.0567s
+INFO:root:Epoch: 0475 lr: 0.01 train_loss: 644507.3125 train_distortion: 7.9327 train_mapscore: 0.7422 train_c: -0.9470 train_max_dist: 28.0371 train_imax: -0.0000 train_imin: -66.1477 time: 4.0286s
+INFO:root:Epoch: 0480 lr: 0.01 train_loss: 644364.6250 train_distortion: 7.9432 train_mapscore: 0.7424 train_c: -0.9457 train_max_dist: 28.0044 train_imax: -0.0000 train_imin: -66.0379 time: 4.1500s
+INFO:root:Epoch: 0485 lr: 0.01 train_loss: 644258.5625 train_distortion: 7.9508 train_mapscore: 0.7427 train_c: -0.9445 train_max_dist: 27.9805 train_imax: -0.0000 train_imin: -65.8639 time: 4.0975s
+INFO:root:Epoch: 0490 lr: 0.01 train_loss: 644094.1250 train_distortion: 7.9599 train_mapscore: 0.7428 train_c: -0.9434 train_max_dist: 27.9546 train_imax: -0.0000 train_imin: -65.7303 time: 4.0694s
+INFO:root:Epoch: 0495 lr: 0.01 train_loss: 644049.5000 train_distortion: 7.9682 train_mapscore: 0.7430 train_c: -0.9423 train_max_dist: 27.9219 train_imax: -0.0000 train_imin: -65.6025 time: 4.0696s
+INFO:root:Epoch: 0500 lr: 0.01 train_loss: 643968.1250 train_distortion: 7.9724 train_mapscore: 0.7431 train_c: -0.9413 train_max_dist: 27.9014 train_imax: -0.0000 train_imin: -65.4643 time: 4.0935s
+INFO:root:Epoch: 0505 lr: 0.01 train_loss: 643751.0000 train_distortion: 7.9788 train_mapscore: 0.7434 train_c: -0.9405 train_max_dist: 27.8809 train_imax: -0.0000 train_imin: -65.2690 time: 4.1391s
+INFO:root:Epoch: 0510 lr: 0.01 train_loss: 643548.0000 train_distortion: 7.9896 train_mapscore: 0.7434 train_c: -0.9397 train_max_dist: 27.8486 train_imax: -0.0000 train_imin: -65.1516 time: 4.0540s
+INFO:root:Epoch: 0515 lr: 0.01 train_loss: 643405.6875 train_distortion: 8.0018 train_mapscore: 0.7437 train_c: -0.9391 train_max_dist: 27.8311 train_imax: -0.0000 train_imin: -65.0481 time: 4.0134s
+INFO:root:Epoch: 0520 lr: 0.01 train_loss: 643293.2500 train_distortion: 8.0145 train_mapscore: 0.7439 train_c: -0.9385 train_max_dist: 27.8066 train_imax: -0.0000 train_imin: -64.9252 time: 4.0705s
+INFO:root:Epoch: 0525 lr: 0.01 train_loss: 643243.5000 train_distortion: 8.0252 train_mapscore: 0.7440 train_c: -0.9380 train_max_dist: 27.7920 train_imax: -0.0000 train_imin: -64.7664 time: 4.0616s
+INFO:root:Epoch: 0530 lr: 0.01 train_loss: 643278.0000 train_distortion: 8.0319 train_mapscore: 0.7440 train_c: -0.9375 train_max_dist: 27.7705 train_imax: -0.0000 train_imin: -64.6504 time: 4.0311s
+INFO:root:Epoch: 0535 lr: 0.01 train_loss: 643059.3125 train_distortion: 8.0372 train_mapscore: 0.7444 train_c: -0.9370 train_max_dist: 27.7480 train_imax: -0.0000 train_imin: -64.5070 time: 4.0783s
+INFO:root:Epoch: 0540 lr: 0.01 train_loss: 642876.4375 train_distortion: 8.0445 train_mapscore: 0.7445 train_c: -0.9366 train_max_dist: 27.7227 train_imax: -0.0000 train_imin: -64.3056 time: 4.0416s
+INFO:root:Epoch: 0545 lr: 0.01 train_loss: 642724.8750 train_distortion: 8.0557 train_mapscore: 0.7447 train_c: -0.9364 train_max_dist: 27.7012 train_imax: -0.0000 train_imin: -64.1604 time: 4.0679s
+INFO:root:Epoch: 0550 lr: 0.01 train_loss: 642609.8750 train_distortion: 8.0669 train_mapscore: 0.7450 train_c: -0.9362 train_max_dist: 27.6904 train_imax: -0.0000 train_imin: -64.0356 time: 3.3188s
+INFO:root:Epoch: 0555 lr: 0.01 train_loss: 642533.2500 train_distortion: 8.0782 train_mapscore: 0.7450 train_c: -0.9360 train_max_dist: 27.6729 train_imax: -0.0000 train_imin: -63.8934 time: 4.0463s
+INFO:root:Epoch: 0560 lr: 0.01 train_loss: 642435.8125 train_distortion: 8.0879 train_mapscore: 0.7452 train_c: -0.9359 train_max_dist: 27.6606 train_imax: -0.0000 train_imin: -63.7563 time: 4.0233s
+INFO:root:Epoch: 0565 lr: 0.01 train_loss: 642370.3125 train_distortion: 8.0963 train_mapscore: 0.7453 train_c: -0.9358 train_max_dist: 27.6426 train_imax: -0.0000 train_imin: -63.5503 time: 4.0493s
+INFO:root:Epoch: 0570 lr: 0.01 train_loss: 642195.3125 train_distortion: 8.1038 train_mapscore: 0.7453 train_c: -0.9357 train_max_dist: 27.6299 train_imax: -0.0000 train_imin: -63.4190 time: 4.0336s
+INFO:root:Epoch: 0575 lr: 0.01 train_loss: 642040.3750 train_distortion: 8.1140 train_mapscore: 0.7455 train_c: -0.9357 train_max_dist: 27.6162 train_imax: -0.0000 train_imin: -63.2989 time: 4.0067s
+INFO:root:Epoch: 0580 lr: 0.01 train_loss: 641951.3125 train_distortion: 8.1261 train_mapscore: 0.7456 train_c: -0.9358 train_max_dist: 27.6011 train_imax: -0.0000 train_imin: -63.1631 time: 3.9585s
+INFO:root:Epoch: 0585 lr: 0.01 train_loss: 641936.4375 train_distortion: 8.1362 train_mapscore: 0.7457 train_c: -0.9359 train_max_dist: 27.5869 train_imax: -0.0000 train_imin: -62.9657 time: 4.0066s
+INFO:root:Epoch: 0590 lr: 0.01 train_loss: 641842.0000 train_distortion: 8.1424 train_mapscore: 0.7458 train_c: -0.9360 train_max_dist: 27.5625 train_imax: -0.0000 train_imin: -62.8374 time: 4.0054s
+INFO:root:Epoch: 0595 lr: 0.01 train_loss: 641699.7500 train_distortion: 8.1509 train_mapscore: 0.7459 train_c: -0.9362 train_max_dist: 27.5537 train_imax: -0.0000 train_imin: -62.6595 time: 3.9843s
+INFO:root:Epoch: 0600 lr: 0.01 train_loss: 641516.1250 train_distortion: 8.1591 train_mapscore: 0.7462 train_c: -0.9363 train_max_dist: 27.5444 train_imax: -0.0000 train_imin: -62.4696 time: 4.0208s
+INFO:root:Epoch: 0605 lr: 0.01 train_loss: 641443.2500 train_distortion: 8.1700 train_mapscore: 0.7462 train_c: -0.9366 train_max_dist: 27.5312 train_imax: -0.0000 train_imin: -62.3367 time: 3.9879s
+INFO:root:Epoch: 0610 lr: 0.01 train_loss: 641309.1250 train_distortion: 8.1816 train_mapscore: 0.7463 train_c: -0.9368 train_max_dist: 27.5181 train_imax: -0.0000 train_imin: -62.2233 time: 4.0111s
+INFO:root:Epoch: 0615 lr: 0.01 train_loss: 641254.9375 train_distortion: 8.1908 train_mapscore: 0.7465 train_c: -0.9371 train_max_dist: 27.5146 train_imax: -0.0000 train_imin: -62.0822 time: 4.0138s
+INFO:root:Epoch: 0620 lr: 0.01 train_loss: 641218.8750 train_distortion: 8.2000 train_mapscore: 0.7465 train_c: -0.9374 train_max_dist: 27.4922 train_imax: -0.0000 train_imin: -61.8641 time: 3.9764s
+INFO:root:Epoch: 0625 lr: 0.01 train_loss: 640987.1875 train_distortion: 8.2068 train_mapscore: 0.7466 train_c: -0.9378 train_max_dist: 27.4873 train_imax: -0.0000 train_imin: -61.7391 time: 4.0450s
+INFO:root:Epoch: 0630 lr: 0.01 train_loss: 640860.8750 train_distortion: 8.2171 train_mapscore: 0.7468 train_c: -0.9381 train_max_dist: 27.4785 train_imax: -0.0000 train_imin: -61.5777 time: 4.0423s
+INFO:root:Epoch: 0635 lr: 0.01 train_loss: 640802.8125 train_distortion: 8.2295 train_mapscore: 0.7470 train_c: -0.9385 train_max_dist: 27.4697 train_imax: -0.0000 train_imin: -61.4412 time: 4.0337s
+INFO:root:Epoch: 0640 lr: 0.01 train_loss: 640840.3750 train_distortion: 8.2367 train_mapscore: 0.7469 train_c: -0.9389 train_max_dist: 27.4590 train_imax: -0.0000 train_imin: -61.2688 time: 4.0253s
+INFO:root:Epoch: 0645 lr: 0.01 train_loss: 640642.6250 train_distortion: 8.2427 train_mapscore: 0.7470 train_c: -0.9393 train_max_dist: 27.4355 train_imax: -0.0000 train_imin: -61.1243 time: 3.9962s
+INFO:root:Epoch: 0650 lr: 0.01 train_loss: 640508.7500 train_distortion: 8.2530 train_mapscore: 0.7472 train_c: -0.9398 train_max_dist: 27.4307 train_imax: -0.0000 train_imin: -60.9802 time: 4.0511s
+INFO:root:Epoch: 0655 lr: 0.01 train_loss: 640383.4375 train_distortion: 8.2629 train_mapscore: 0.7473 train_c: -0.9403 train_max_dist: 27.4199 train_imax: -0.0000 train_imin: -60.8240 time: 4.1256s
+INFO:root:Epoch: 0660 lr: 0.01 train_loss: 640297.6875 train_distortion: 8.2749 train_mapscore: 0.7476 train_c: -0.9408 train_max_dist: 27.4082 train_imax: -0.0000 train_imin: -60.6971 time: 4.0012s
+INFO:root:Epoch: 0665 lr: 0.01 train_loss: 640243.2500 train_distortion: 8.2846 train_mapscore: 0.7477 train_c: -0.9413 train_max_dist: 27.4019 train_imax: -0.0000 train_imin: -60.5388 time: 4.0265s
+INFO:root:Epoch: 0670 lr: 0.01 train_loss: 640138.6250 train_distortion: 8.2941 train_mapscore: 0.7475 train_c: -0.9418 train_max_dist: 27.3833 train_imax: -0.0000 train_imin: -60.4536 time: 3.9719s
+INFO:root:Epoch: 0675 lr: 0.01 train_loss: 640018.3750 train_distortion: 8.3023 train_mapscore: 0.7478 train_c: -0.9424 train_max_dist: 27.3604 train_imax: -0.0000 train_imin: -60.2797 time: 3.8621s
+INFO:root:Epoch: 0680 lr: 0.01 train_loss: 639940.0000 train_distortion: 8.3126 train_mapscore: 0.7479 train_c: -0.9429 train_max_dist: 27.3496 train_imax: -0.0000 train_imin: -60.1210 time: 4.0253s
+INFO:root:Epoch: 0685 lr: 0.01 train_loss: 639840.5000 train_distortion: 8.3222 train_mapscore: 0.7481 train_c: -0.9435 train_max_dist: 27.3447 train_imax: -0.0000 train_imin: -60.0225 time: 4.0166s
+INFO:root:Epoch: 0690 lr: 0.01 train_loss: 639728.5000 train_distortion: 8.3308 train_mapscore: 0.7482 train_c: -0.9440 train_max_dist: 27.3296 train_imax: -0.0000 train_imin: -59.8516 time: 3.9341s
+INFO:root:Epoch: 0695 lr: 0.01 train_loss: 639622.1250 train_distortion: 8.3404 train_mapscore: 0.7484 train_c: -0.9446 train_max_dist: 27.3193 train_imax: -0.0000 train_imin: -59.7222 time: 3.9551s
+INFO:root:Epoch: 0700 lr: 0.01 train_loss: 639607.1250 train_distortion: 8.3511 train_mapscore: 0.7485 train_c: -0.9452 train_max_dist: 27.2983 train_imax: -0.0000 train_imin: -59.5488 time: 3.9661s
+INFO:root:Epoch: 0705 lr: 0.01 train_loss: 639610.8750 train_distortion: 8.3567 train_mapscore: 0.7485 train_c: -0.9458 train_max_dist: 27.2930 train_imax: -0.0000 train_imin: -59.4612 time: 4.0971s
+INFO:root:Epoch: 0710 lr: 0.01 train_loss: 639422.8125 train_distortion: 8.3621 train_mapscore: 0.7487 train_c: -0.9464 train_max_dist: 27.2715 train_imax: -0.0000 train_imin: -59.2401 time: 4.0313s
+INFO:root:Epoch: 0715 lr: 0.01 train_loss: 639307.6250 train_distortion: 8.3717 train_mapscore: 0.7488 train_c: -0.9470 train_max_dist: 27.2515 train_imax: -0.0000 train_imin: -59.1706 time: 4.0212s
+INFO:root:Epoch: 0720 lr: 0.01 train_loss: 639191.7500 train_distortion: 8.3825 train_mapscore: 0.7490 train_c: -0.9476 train_max_dist: 27.2451 train_imax: -0.0000 train_imin: -59.0164 time: 4.0586s
+INFO:root:Epoch: 0725 lr: 0.01 train_loss: 639102.0000 train_distortion: 8.3929 train_mapscore: 0.7491 train_c: -0.9483 train_max_dist: 27.2266 train_imax: -0.0000 train_imin: -58.8894 time: 4.0502s
+INFO:root:Epoch: 0730 lr: 0.01 train_loss: 639044.1250 train_distortion: 8.4028 train_mapscore: 0.7492 train_c: -0.9490 train_max_dist: 27.2168 train_imax: -0.0000 train_imin: -58.7563 time: 3.9613s
+INFO:root:Epoch: 0735 lr: 0.01 train_loss: 638959.6875 train_distortion: 8.4113 train_mapscore: 0.7491 train_c: -0.9496 train_max_dist: 27.2109 train_imax: -0.0000 train_imin: -58.6509 time: 3.9525s
+INFO:root:Epoch: 0740 lr: 0.01 train_loss: 638871.3750 train_distortion: 8.4204 train_mapscore: 0.7493 train_c: -0.9503 train_max_dist: 27.1860 train_imax: -0.0000 train_imin: -58.4919 time: 4.0029s
+INFO:root:Epoch: 0745 lr: 0.01 train_loss: 638799.1875 train_distortion: 8.4271 train_mapscore: 0.7493 train_c: -0.9510 train_max_dist: 27.1826 train_imax: -0.0000 train_imin: -58.3432 time: 4.0498s
+INFO:root:Epoch: 0750 lr: 0.01 train_loss: 638723.3125 train_distortion: 8.4361 train_mapscore: 0.7495 train_c: -0.9516 train_max_dist: 27.1699 train_imax: -0.0000 train_imin: -58.2184 time: 4.0314s
+INFO:root:Epoch: 0755 lr: 0.01 train_loss: 638723.2500 train_distortion: 8.4437 train_mapscore: 0.7495 train_c: -0.9523 train_max_dist: 27.1602 train_imax: -0.0000 train_imin: -58.0887 time: 4.0643s
+INFO:root:Epoch: 0760 lr: 0.01 train_loss: 638544.1875 train_distortion: 8.4494 train_mapscore: 0.7496 train_c: -0.9530 train_max_dist: 27.1348 train_imax: -0.0000 train_imin: -57.9477 time: 3.9994s
+INFO:root:Epoch: 0765 lr: 0.01 train_loss: 638436.6250 train_distortion: 8.4574 train_mapscore: 0.7497 train_c: -0.9537 train_max_dist: 27.1289 train_imax: -0.0000 train_imin: -57.8032 time: 3.9448s
+INFO:root:Epoch: 0770 lr: 0.01 train_loss: 638313.5000 train_distortion: 8.4679 train_mapscore: 0.7499 train_c: -0.9544 train_max_dist: 27.1162 train_imax: -0.0000 train_imin: -57.6556 time: 3.9853s
+INFO:root:Epoch: 0775 lr: 0.01 train_loss: 638228.8125 train_distortion: 8.4785 train_mapscore: 0.7500 train_c: -0.9552 train_max_dist: 27.1187 train_imax: -0.0000 train_imin: -57.5253 time: 4.0357s
+INFO:root:Epoch: 0780 lr: 0.01 train_loss: 638179.0625 train_distortion: 8.4879 train_mapscore: 0.7501 train_c: -0.9560 train_max_dist: 27.1089 train_imax: -0.0000 train_imin: -57.4319 time: 4.0384s
+INFO:root:Epoch: 0785 lr: 0.01 train_loss: 638188.5000 train_distortion: 8.4968 train_mapscore: 0.7502 train_c: -0.9567 train_max_dist: 27.0986 train_imax: -0.0000 train_imin: -57.2617 time: 3.9783s
+INFO:root:Epoch: 0790 lr: 0.01 train_loss: 638144.7500 train_distortion: 8.5024 train_mapscore: 0.7501 train_c: -0.9574 train_max_dist: 27.0771 train_imax: -0.0000 train_imin: -57.1662 time: 3.9586s
+INFO:root:Epoch: 0795 lr: 0.01 train_loss: 637977.9375 train_distortion: 8.5071 train_mapscore: 0.7503 train_c: -0.9581 train_max_dist: 27.0713 train_imax: -0.0000 train_imin: -57.0051 time: 4.0841s
+INFO:root:Epoch: 0800 lr: 0.01 train_loss: 637887.0625 train_distortion: 8.5150 train_mapscore: 0.7503 train_c: -0.9588 train_max_dist: 27.0527 train_imax: -0.0000 train_imin: -56.8685 time: 3.9869s
+INFO:root:Epoch: 0805 lr: 0.01 train_loss: 637787.5000 train_distortion: 8.5235 train_mapscore: 0.7505 train_c: -0.9596 train_max_dist: 27.0459 train_imax: -0.0000 train_imin: -56.7204 time: 3.9901s
+INFO:root:Epoch: 0810 lr: 0.01 train_loss: 637685.1250 train_distortion: 8.5334 train_mapscore: 0.7506 train_c: -0.9603 train_max_dist: 27.0400 train_imax: -0.0000 train_imin: -56.5820 time: 3.9574s
+INFO:root:Epoch: 0815 lr: 0.01 train_loss: 637603.1875 train_distortion: 8.5429 train_mapscore: 0.7507 train_c: -0.9611 train_max_dist: 27.0332 train_imax: -0.0000 train_imin: -56.4963 time: 4.0614s
+INFO:root:Epoch: 0820 lr: 0.01 train_loss: 637529.6875 train_distortion: 8.5527 train_mapscore: 0.7508 train_c: -0.9619 train_max_dist: 27.0166 train_imax: -0.0000 train_imin: -56.3544 time: 3.9738s
+INFO:root:Epoch: 0825 lr: 0.01 train_loss: 637478.8125 train_distortion: 8.5617 train_mapscore: 0.7508 train_c: -0.9626 train_max_dist: 27.0049 train_imax: -0.0000 train_imin: -56.2642 time: 3.9727s
+INFO:root:Epoch: 0830 lr: 0.01 train_loss: 637420.1250 train_distortion: 8.5681 train_mapscore: 0.7510 train_c: -0.9634 train_max_dist: 27.0039 train_imax: -0.0000 train_imin: -56.1078 time: 4.0359s
+INFO:root:Epoch: 0835 lr: 0.01 train_loss: 637374.7500 train_distortion: 8.5766 train_mapscore: 0.7509 train_c: -0.9641 train_max_dist: 26.9761 train_imax: -0.0000 train_imin: -55.9946 time: 3.9171s
+INFO:root:Epoch: 0840 lr: 0.01 train_loss: 637286.8750 train_distortion: 8.5815 train_mapscore: 0.7510 train_c: -0.9649 train_max_dist: 26.9756 train_imax: -0.0000 train_imin: -55.9241 time: 3.9505s
+INFO:root:Epoch: 0845 lr: 0.01 train_loss: 637253.8750 train_distortion: 8.5876 train_mapscore: 0.7512 train_c: -0.9656 train_max_dist: 26.9551 train_imax: -0.0000 train_imin: -55.7259 time: 4.0538s
+INFO:root:Epoch: 0850 lr: 0.01 train_loss: 637110.1250 train_distortion: 8.5943 train_mapscore: 0.7513 train_c: -0.9663 train_max_dist: 26.9434 train_imax: -0.0000 train_imin: -55.6075 time: 3.9211s
+INFO:root:Epoch: 0855 lr: 0.01 train_loss: 637039.2500 train_distortion: 8.6027 train_mapscore: 0.7514 train_c: -0.9671 train_max_dist: 26.9414 train_imax: -0.0000 train_imin: -55.4523 time: 3.9694s
+INFO:root:Epoch: 0860 lr: 0.01 train_loss: 636942.3125 train_distortion: 8.6122 train_mapscore: 0.7516 train_c: -0.9679 train_max_dist: 26.9324 train_imax: -0.0000 train_imin: -55.3717 time: 3.8408s
+INFO:root:Epoch: 0865 lr: 0.01 train_loss: 636851.4375 train_distortion: 8.6205 train_mapscore: 0.7515 train_c: -0.9687 train_max_dist: 26.9189 train_imax: -0.0000 train_imin: -55.2341 time: 3.9146s
+INFO:root:Epoch: 0870 lr: 0.01 train_loss: 636786.2500 train_distortion: 8.6299 train_mapscore: 0.7517 train_c: -0.9695 train_max_dist: 26.9058 train_imax: -0.0000 train_imin: -55.1253 time: 3.7391s
+INFO:root:Epoch: 0875 lr: 0.01 train_loss: 636793.1875 train_distortion: 8.6379 train_mapscore: 0.7518 train_c: -0.9703 train_max_dist: 26.8975 train_imax: -0.0000 train_imin: -54.9860 time: 3.9553s
+INFO:root:Epoch: 0880 lr: 0.01 train_loss: 636709.7500 train_distortion: 8.6420 train_mapscore: 0.7518 train_c: -0.9710 train_max_dist: 26.8823 train_imax: -0.0000 train_imin: -54.8702 time: 3.8862s
+INFO:root:Epoch: 0885 lr: 0.01 train_loss: 636584.0625 train_distortion: 8.6501 train_mapscore: 0.7518 train_c: -0.9718 train_max_dist: 26.8740 train_imax: -0.0000 train_imin: -54.7779 time: 3.9548s
+INFO:root:Epoch: 0890 lr: 0.01 train_loss: 636501.3125 train_distortion: 8.6582 train_mapscore: 0.7520 train_c: -0.9726 train_max_dist: 26.8667 train_imax: -0.0000 train_imin: -54.6731 time: 3.8725s
+INFO:root:Epoch: 0895 lr: 0.01 train_loss: 636455.8750 train_distortion: 8.6666 train_mapscore: 0.7520 train_c: -0.9733 train_max_dist: 26.8528 train_imax: -0.0000 train_imin: -54.5245 time: 3.8743s
+INFO:root:Epoch: 0900 lr: 0.01 train_loss: 636425.1250 train_distortion: 8.6744 train_mapscore: 0.7521 train_c: -0.9741 train_max_dist: 26.8433 train_imax: -0.0000 train_imin: -54.4005 time: 3.9560s
+INFO:root:Epoch: 0905 lr: 0.01 train_loss: 636292.0625 train_distortion: 8.6800 train_mapscore: 0.7523 train_c: -0.9749 train_max_dist: 26.8457 train_imax: -0.0000 train_imin: -54.3172 time: 3.8785s
+INFO:root:Epoch: 0910 lr: 0.01 train_loss: 636226.5000 train_distortion: 8.6867 train_mapscore: 0.7523 train_c: -0.9757 train_max_dist: 26.8186 train_imax: -0.0000 train_imin: -54.1786 time: 3.9523s
+INFO:root:Epoch: 0915 lr: 0.01 train_loss: 636131.6250 train_distortion: 8.6966 train_mapscore: 0.7524 train_c: -0.9765 train_max_dist: 26.8193 train_imax: -0.0000 train_imin: -54.0547 time: 3.8710s
+INFO:root:Epoch: 0920 lr: 0.01 train_loss: 636084.6250 train_distortion: 8.7040 train_mapscore: 0.7524 train_c: -0.9773 train_max_dist: 26.8018 train_imax: -0.0000 train_imin: -53.9242 time: 3.9364s
+INFO:root:Epoch: 0925 lr: 0.01 train_loss: 636032.3750 train_distortion: 8.7126 train_mapscore: 0.7525 train_c: -0.9781 train_max_dist: 26.7939 train_imax: -0.0000 train_imin: -53.8243 time: 3.9108s
+INFO:root:Epoch: 0930 lr: 0.01 train_loss: 635976.2500 train_distortion: 8.7174 train_mapscore: 0.7526 train_c: -0.9789 train_max_dist: 26.7793 train_imax: -0.0000 train_imin: -53.7027 time: 3.9564s
+INFO:root:Epoch: 0935 lr: 0.01 train_loss: 635867.6250 train_distortion: 8.7253 train_mapscore: 0.7527 train_c: -0.9796 train_max_dist: 26.7686 train_imax: -0.0000 train_imin: -53.5585 time: 3.9606s
+INFO:root:Epoch: 0940 lr: 0.01 train_loss: 635809.6875 train_distortion: 8.7329 train_mapscore: 0.7527 train_c: -0.9804 train_max_dist: 26.7639 train_imax: -0.0000 train_imin: -53.5196 time: 3.9473s
+INFO:root:Epoch: 0945 lr: 0.01 train_loss: 635749.1250 train_distortion: 8.7406 train_mapscore: 0.7528 train_c: -0.9812 train_max_dist: 26.7468 train_imax: -0.0000 train_imin: -53.3294 time: 3.9360s
+INFO:root:Epoch: 0950 lr: 0.01 train_loss: 635736.2500 train_distortion: 8.7472 train_mapscore: 0.7527 train_c: -0.9820 train_max_dist: 26.7461 train_imax: -0.0000 train_imin: -53.3034 time: 3.8949s
+INFO:root:Epoch: 0955 lr: 0.01 train_loss: 635672.8125 train_distortion: 8.7511 train_mapscore: 0.7530 train_c: -0.9828 train_max_dist: 26.7275 train_imax: -0.0000 train_imin: -53.1431 time: 3.8921s
+INFO:root:Epoch: 0960 lr: 0.01 train_loss: 635561.1250 train_distortion: 8.7577 train_mapscore: 0.7530 train_c: -0.9835 train_max_dist: 26.7217 train_imax: -0.0000 train_imin: -53.0143 time: 3.7015s
+INFO:root:Epoch: 0965 lr: 0.01 train_loss: 635464.7500 train_distortion: 8.7654 train_mapscore: 0.7531 train_c: -0.9843 train_max_dist: 26.7031 train_imax: -0.0000 train_imin: -52.8988 time: 3.8801s
+INFO:root:Epoch: 0970 lr: 0.01 train_loss: 635389.1250 train_distortion: 8.7721 train_mapscore: 0.7532 train_c: -0.9851 train_max_dist: 26.6943 train_imax: -0.0000 train_imin: -52.8325 time: 3.8878s
+INFO:root:Epoch: 0975 lr: 0.01 train_loss: 635328.1250 train_distortion: 8.7810 train_mapscore: 0.7533 train_c: -0.9860 train_max_dist: 26.6895 train_imax: -0.0000 train_imin: -52.7285 time: 3.8703s
+INFO:root:Epoch: 0980 lr: 0.01 train_loss: 635266.0000 train_distortion: 8.7892 train_mapscore: 0.7534 train_c: -0.9868 train_max_dist: 26.6787 train_imax: -0.0000 train_imin: -52.6040 time: 3.8423s
+INFO:root:Epoch: 0985 lr: 0.01 train_loss: 635207.7500 train_distortion: 8.7955 train_mapscore: 0.7534 train_c: -0.9876 train_max_dist: 26.6741 train_imax: -0.0000 train_imin: -52.5201 time: 3.9387s
+INFO:root:Epoch: 0990 lr: 0.01 train_loss: 635159.3750 train_distortion: 8.8015 train_mapscore: 0.7536 train_c: -0.9884 train_max_dist: 26.6560 train_imax: -0.0000 train_imin: -52.4022 time: 3.9355s
+INFO:root:Epoch: 0995 lr: 0.01 train_loss: 635153.1250 train_distortion: 8.8087 train_mapscore: 0.7536 train_c: -0.9892 train_max_dist: 26.6426 train_imax: -0.0000 train_imin: -52.2785 time: 3.9544s
+INFO:root:Epoch: 1000 lr: 0.0025 train_loss: 635118.1875 train_distortion: 8.8097 train_mapscore: 0.7535 train_c: -0.9899 train_max_dist: 26.6421 train_imax: -0.0000 train_imin: -52.1398 time: 3.9637s
+INFO:root:Optimization Finished!
+INFO:root:Total time elapsed: 4092.7974s
+INFO:root:Val set results: val_distortion: 1.0000 val_mapscore: -1.0000 val_c: -1.0000 val_max_dist: 0.0000
+INFO:root:Test set results: test_loss: 635088.0000 test_distortion: 8.8125 test_mapscore: 0.7537 test_c: -0.9901 test_max_dist: 26.6260 test_imax: -0.0000 test_imin: -52.0792
+INFO:root:Saved model in /workspace/xiongbo/hgcn/logs/md/2021_4_30/46

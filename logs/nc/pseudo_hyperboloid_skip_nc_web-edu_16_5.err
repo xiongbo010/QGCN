@@ -1,0 +1,12 @@
+INFO:root:Using: cuda:0
+INFO:root:Using seed 1234.
+Traceback (most recent call last):
+  File "train.py", line 166, in <module>
+    train(args)
+  File "train.py", line 53, in train
+    data = load_data(args, os.path.join(os.environ['DATAPATH'], args.dataset))
+  File "/workspace/xiongbo/hgcn/hgcn/utils/data_utils.py", line 16, in load_data
+    data = load_data_nc(args.dataset, args.use_feats, datapath, args.split_seed)
+  File "/workspace/xiongbo/hgcn/hgcn/utils/data_utils.py", line 314, in load_data_nc
+    raise FileNotFoundError('Dataset {} is not supported.'.format(dataset))
+FileNotFoundError: Dataset web-edu is not supported.

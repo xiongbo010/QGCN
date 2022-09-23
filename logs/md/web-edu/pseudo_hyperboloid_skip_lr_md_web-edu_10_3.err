@@ -1,0 +1,58 @@
+INFO:root:Using: cuda:0
+INFO:root:Using seed 1234.
+INFO:root:MDModel(
+  (encoder): HGCN(
+    (layers): Sequential(
+      (0): HyperbolicGraphConvolution(
+        (linear): HypLinear(
+          in_features=3032, out_features=10, c=Parameter containing:
+          tensor([-1.], requires_grad=True)
+        )
+        (agg): HypAgg(
+          c=Parameter containing:
+          tensor([-1.], requires_grad=True)
+        )
+        (hyp_act): HypAct(
+          c_in=Parameter containing:
+          tensor([-1.], requires_grad=True), c_out=Parameter containing:
+          tensor([-1.], requires_grad=True)
+        )
+      )
+    )
+  )
+  (decoder): MDDecoder()
+)
+INFO:root:Total number of parameters: 30332
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0005 lr: 0.01 train_loss: 98531.4375 train_distortion: 0.7276 train_mapscore: 0.0535 train_c: -1.0001 train_max_dist: 2.5892 train_imax: -0.0000 train_imin: -1.2142 time: 2.2349s
+INFO:root:Epoch: 0010 lr: 0.01 train_loss: 95651.4766 train_distortion: 0.6490 train_mapscore: 0.1269 train_c: -1.0006 train_max_dist: 3.3228 train_imax: -0.0000 train_imin: -1.2056 time: 3.7685s
+INFO:root:Epoch: 0015 lr: 0.01 train_loss: 94309.1094 train_distortion: 0.6212 train_mapscore: 0.1730 train_c: -1.0011 train_max_dist: 3.7815 train_imax: -0.0000 train_imin: -1.2544 time: 2.6199s
+INFO:root:Epoch: 0020 lr: 0.01 train_loss: 93719.2734 train_distortion: 0.6045 train_mapscore: 0.2039 train_c: -1.0017 train_max_dist: 4.5462 train_imax: -0.0000 train_imin: -1.2674 time: 3.6956s
+INFO:root:Epoch: 0025 lr: 0.01 train_loss: 92829.9766 train_distortion: 0.5851 train_mapscore: 0.2211 train_c: -1.0022 train_max_dist: 6.8586 train_imax: 0.0178 train_imin: -1.3425 time: 3.9639s
+INFO:root:Epoch: 0030 lr: 0.01 train_loss: 92160.8203 train_distortion: 0.5653 train_mapscore: 0.2427 train_c: -1.0028 train_max_dist: 7.5624 train_imax: 0.1349 train_imin: -1.3754 time: 1.9233s
+INFO:root:Epoch: 0035 lr: 0.01 train_loss: 91401.6875 train_distortion: 0.5422 train_mapscore: 0.2519 train_c: -1.0033 train_max_dist: 9.5879 train_imax: 0.1025 train_imin: -1.3494 time: 3.6760s
+INFO:root:Epoch: 0040 lr: 0.01 train_loss: 90528.6094 train_distortion: 0.5150 train_mapscore: 0.2583 train_c: -1.0039 train_max_dist: 9.7891 train_imax: 0.3698 train_imin: -1.3700 time: 3.7423s
+INFO:root:Epoch: 0045 lr: 0.01 train_loss: 89722.4531 train_distortion: 0.4812 train_mapscore: 0.2522 train_c: -1.0045 train_max_dist: 9.8750 train_imax: 0.1761 train_imin: -1.2070 time: 2.6211s
+INFO:root:Epoch: 0050 lr: 0.01 train_loss: 87968.0469 train_distortion: 0.4398 train_mapscore: 0.2412 train_c: -1.0050 train_max_dist: 9.7969 train_imax: 0.5711 train_imin: -1.3300 time: 3.8258s
+INFO:root:Epoch: 0055 lr: 0.01 train_loss: 85894.0078 train_distortion: 0.3847 train_mapscore: 0.2454 train_c: -1.0055 train_max_dist: 9.8594 train_imax: 0.3857 train_imin: -1.4975 time: 1.9294s
+INFO:root:Epoch: 0060 lr: 0.01 train_loss: 83749.3516 train_distortion: 0.3146 train_mapscore: 0.2466 train_c: -1.0059 train_max_dist: 10.1250 train_imax: 0.7188 train_imin: -1.3474 time: 3.8767s
+INFO:root:Epoch: 0065 lr: 0.01 train_loss: 81336.7734 train_distortion: 0.2612 train_mapscore: 0.2332 train_c: -1.0063 train_max_dist: 10.1250 train_imax: 1.5160 train_imin: -1.4030 time: 4.1452s
+INFO:root:Epoch: 0070 lr: 0.01 train_loss: 77607.8281 train_distortion: 0.2815 train_mapscore: 0.2062 train_c: -1.0065 train_max_dist: 11.0108 train_imax: 2.0503 train_imin: -1.7302 time: 1.9343s
+INFO:root:Epoch: 0075 lr: 0.01 train_loss: 72343.8594 train_distortion: 0.2684 train_mapscore: 0.2106 train_c: -1.0067 train_max_dist: 12.0702 train_imax: 2.0920 train_imin: -1.9333 time: 1.9987s
+Traceback (most recent call last):
+  File "train.py", line 167, in <module>
+    train(args)
+  File "train.py", line 112, in train
+    train_metrics = model.compute_metrics(embeddings, data, 'train')
+  File "/workspace/xiongbo/hgcn/hgcn/models/base_models.py", line 116, in compute_metrics
+    x, emb_dist, loss, max_dist,imax, imin = self.decode(embeddings,data,None)
+  File "/workspace/xiongbo/hgcn/hgcn/models/base_models.py", line 111, in decode
+    output = self.decoder.decode(h, adj)
+  File "/workspace/xiongbo/hgcn/hgcn/models/decoders.py", line 112, in decode
+    dist = self.manifold.sqdist(x_1, x_2,self.beta).view(num,num)
+  File "/workspace/xiongbo/hgcn/hgcn/manifolds/pseudohyperboloid_sh.py", line 95, in sqdist
+    u = self.logmap_n(x[c3],y[c3],beta)
+  File "/workspace/xiongbo/hgcn/hgcn/manifolds/pseudohyperboloid_sh.py", line 218, in logmap_n
+    U[space_like_positive,:] = torch.clamp(((up/low).repeat(1,d))* torch.clamp((y[space_like_positive,:]-x[space_like_positive,:]*beta_product_positive[space_like_positive].repeat(1,d)),max=self.max_norm),max=self.max_norm)
+RuntimeError: CUDA out of memory. Tried to allocate 220.00 MiB (GPU 0; 39.59 GiB total capacity; 6.74 GiB already allocated; 47.69 MiB free; 8.37 GiB reserved in total by PyTorch)

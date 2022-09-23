@@ -1,0 +1,41 @@
+INFO:root:Using: cuda:0
+INFO:root:Using seed 1234.
+INFO:root:MDModel(
+  (encoder): HGCN(
+    (layers): Sequential(
+      (0): HyperbolicGraphConvolution(
+        (linear): HypLinear(
+          in_features=4942, out_features=10, c=Parameter containing:
+          tensor([-1.], requires_grad=True)
+        )
+        (agg): HypAgg(
+          c=Parameter containing:
+          tensor([-1.], requires_grad=True)
+        )
+        (hyp_act): HypAct(
+          c_in=Parameter containing:
+          tensor([-1.], requires_grad=True), c_out=Parameter containing:
+          tensor([-1.], requires_grad=True)
+        )
+      )
+    )
+  )
+  (decoder): MDDecoder()
+)
+INFO:root:Total number of parameters: 49432
+Traceback (most recent call last):
+  File "train.py", line 167, in <module>
+    train(args)
+  File "train.py", line 112, in train
+    train_metrics = model.compute_metrics(embeddings, data, 'train')
+  File "/workspace/xiongbo/hgcn/hgcn/models/base_models.py", line 116, in compute_metrics
+    x, emb_dist, loss, max_dist,imax, imin = self.decode(embeddings,data,None)
+  File "/workspace/xiongbo/hgcn/hgcn/models/base_models.py", line 111, in decode
+    output = self.decoder.decode(h, adj)
+  File "/workspace/xiongbo/hgcn/hgcn/models/decoders.py", line 112, in decode
+    dist = self.manifold.sqdist(x_1, x_2,self.beta).view(num,num)
+  File "/workspace/xiongbo/hgcn/hgcn/manifolds/pseudohyperboloid_sh.py", line 95, in sqdist
+    u = self.logmap_n(x[c3],y[c3],beta)
+  File "/workspace/xiongbo/hgcn/hgcn/manifolds/pseudohyperboloid_sh.py", line 218, in logmap_n
+    U[space_like_positive,:] = torch.clamp(((up/low).repeat(1,d))* torch.clamp((y[space_like_positive,:]-x[space_like_positive,:]*beta_product_positive[space_like_positive].repeat(1,d)),max=self.max_norm),max=self.max_norm)
+RuntimeError: CUDA out of memory. Tried to allocate 154.00 MiB (GPU 0; 39.59 GiB total capacity; 14.70 GiB already allocated; 146.69 MiB free; 14.99 GiB reserved in total by PyTorch)

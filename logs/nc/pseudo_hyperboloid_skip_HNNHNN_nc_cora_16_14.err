@@ -1,0 +1,166 @@
+INFO:root:Using: cuda:0
+INFO:root:Using seed 1234.
+INFO:root:Num classes: 7
+INFO:root:NCModel(
+  (encoder): HNN(
+    (layers): Sequential(
+      (0): HNNLayer(
+        (linear): HypLinear(
+          in_features=1434, out_features=16, c=Parameter containing:
+          tensor([-1.], requires_grad=True)
+        )
+        (hyp_act): HypAct(
+          c_in=Parameter containing:
+          tensor([-1.], requires_grad=True), c_out=Parameter containing:
+          tensor([-1.], requires_grad=True)
+        )
+      )
+    )
+  )
+  (decoder): LinearDecoder(
+    in_features=16, out_features=7, bias=1, c=Parameter containing:
+    tensor([-1.], requires_grad=True)
+    (cls): Linear(
+      (linear): Linear(in_features=16, out_features=7, bias=True)
+    )
+  )
+)
+INFO:root:Total number of parameters: 23080
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0005 lr: 0.01 train_loss: 1.8872 train_acc: 0.2357 train_f1: 0.2357 time: 0.3202s
+INFO:root:Epoch: 0005 val_loss: 1.9115 val_acc: 0.1980 val_f1: 0.1980
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0010 lr: 0.01 train_loss: 1.8034 train_acc: 0.4643 train_f1: 0.4643 time: 0.3193s
+INFO:root:Epoch: 0010 val_loss: 1.8775 val_acc: 0.3380 val_f1: 0.3380
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0015 lr: 0.01 train_loss: 1.7287 train_acc: 0.5071 train_f1: 0.5071 time: 0.3148s
+INFO:root:Epoch: 0015 val_loss: 1.8482 val_acc: 0.3980 val_f1: 0.3980
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0020 lr: 0.01 train_loss: 1.7090 train_acc: 0.3929 train_f1: 0.3929 time: 0.3135s
+INFO:root:Epoch: 0020 val_loss: 1.8102 val_acc: 0.4060 val_f1: 0.4060
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0025 lr: 0.01 train_loss: 1.5691 train_acc: 0.5786 train_f1: 0.5786 time: 0.3150s
+INFO:root:Epoch: 0025 val_loss: 1.7696 val_acc: 0.4340 val_f1: 0.4340
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0030 lr: 0.01 train_loss: 1.4941 train_acc: 0.5500 train_f1: 0.5500 time: 0.3169s
+INFO:root:Epoch: 0030 val_loss: 1.7345 val_acc: 0.4520 val_f1: 0.4520
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0035 lr: 0.01 train_loss: 1.3385 train_acc: 0.6214 train_f1: 0.6214 time: 0.3141s
+INFO:root:Epoch: 0035 val_loss: 1.7032 val_acc: 0.4560 val_f1: 0.4560
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0040 lr: 0.01 train_loss: 1.1985 train_acc: 0.6714 train_f1: 0.6714 time: 0.3140s
+INFO:root:Epoch: 0040 val_loss: 1.6594 val_acc: 0.4820 val_f1: 0.4820
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0045 lr: 0.01 train_loss: 1.2214 train_acc: 0.5714 train_f1: 0.5714 time: 0.3161s
+INFO:root:Epoch: 0045 val_loss: 1.6158 val_acc: 0.4880 val_f1: 0.4880
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0050 lr: 0.01 train_loss: 1.1642 train_acc: 0.6143 train_f1: 0.6143 time: 0.3141s
+INFO:root:Epoch: 0050 val_loss: 1.5955 val_acc: 0.4880 val_f1: 0.4880
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0055 lr: 0.01 train_loss: 0.9978 train_acc: 0.6643 train_f1: 0.6643 time: 0.3146s
+INFO:root:Epoch: 0055 val_loss: 1.5880 val_acc: 0.4840 val_f1: 0.4840
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0060 lr: 0.01 train_loss: 1.0436 train_acc: 0.6143 train_f1: 0.6143 time: 0.3141s
+INFO:root:Epoch: 0060 val_loss: 1.5583 val_acc: 0.5040 val_f1: 0.5040
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0065 lr: 0.01 train_loss: 0.9773 train_acc: 0.6500 train_f1: 0.6500 time: 0.3152s
+INFO:root:Epoch: 0065 val_loss: 1.5185 val_acc: 0.5200 val_f1: 0.5200
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0070 lr: 0.01 train_loss: 1.0386 train_acc: 0.5714 train_f1: 0.5714 time: 0.3131s
+INFO:root:Epoch: 0070 val_loss: 1.4943 val_acc: 0.5280 val_f1: 0.5280
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0075 lr: 0.01 train_loss: 1.0068 train_acc: 0.6143 train_f1: 0.6143 time: 0.3128s
+INFO:root:Epoch: 0075 val_loss: 1.4963 val_acc: 0.5160 val_f1: 0.5160
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0080 lr: 0.01 train_loss: 0.8852 train_acc: 0.6286 train_f1: 0.6286 time: 0.3159s
+INFO:root:Epoch: 0080 val_loss: 1.5011 val_acc: 0.5160 val_f1: 0.5160
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0085 lr: 0.01 train_loss: 0.8759 train_acc: 0.6286 train_f1: 0.6286 time: 0.3175s
+INFO:root:Epoch: 0085 val_loss: 1.4848 val_acc: 0.5100 val_f1: 0.5100
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0090 lr: 0.01 train_loss: 0.9008 train_acc: 0.6286 train_f1: 0.6286 time: 0.3138s
+INFO:root:Epoch: 0090 val_loss: 1.4674 val_acc: 0.5200 val_f1: 0.5200
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0095 lr: 0.01 train_loss: 0.8140 train_acc: 0.6857 train_f1: 0.6857 time: 0.3164s
+INFO:root:Epoch: 0095 val_loss: 1.4563 val_acc: 0.5060 val_f1: 0.5060
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0100 lr: 0.01 train_loss: 0.7624 train_acc: 0.6500 train_f1: 0.6500 time: 0.3146s
+INFO:root:Epoch: 0100 val_loss: 1.4557 val_acc: 0.5040 val_f1: 0.5040
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0105 lr: 0.01 train_loss: 0.6699 train_acc: 0.6786 train_f1: 0.6786 time: 0.3145s
+INFO:root:Epoch: 0105 val_loss: 1.4666 val_acc: 0.5120 val_f1: 0.5120
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0110 lr: 0.01 train_loss: 0.8032 train_acc: 0.6500 train_f1: 0.6500 time: 0.3199s
+INFO:root:Epoch: 0110 val_loss: 1.4692 val_acc: 0.5120 val_f1: 0.5120
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0115 lr: 0.01 train_loss: 0.8638 train_acc: 0.6071 train_f1: 0.6071 time: 0.3147s
+INFO:root:Epoch: 0115 val_loss: 1.4604 val_acc: 0.5180 val_f1: 0.5180
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0120 lr: 0.01 train_loss: 0.8811 train_acc: 0.5786 train_f1: 0.5786 time: 0.3145s
+INFO:root:Epoch: 0120 val_loss: 1.4602 val_acc: 0.5200 val_f1: 0.5200
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0125 lr: 0.01 train_loss: 0.8015 train_acc: 0.6571 train_f1: 0.6571 time: 0.3144s
+INFO:root:Epoch: 0125 val_loss: 1.4547 val_acc: 0.5200 val_f1: 0.5200
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0130 lr: 0.01 train_loss: 0.6636 train_acc: 0.6786 train_f1: 0.6786 time: 0.3160s
+INFO:root:Epoch: 0130 val_loss: 1.4394 val_acc: 0.5100 val_f1: 0.5100
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0135 lr: 0.01 train_loss: 0.7886 train_acc: 0.6286 train_f1: 0.6286 time: 0.3141s
+INFO:root:Epoch: 0135 val_loss: 1.4369 val_acc: 0.5160 val_f1: 0.5160
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0140 lr: 0.01 train_loss: 0.6173 train_acc: 0.6929 train_f1: 0.6929 time: 0.3142s
+INFO:root:Epoch: 0140 val_loss: 1.4371 val_acc: 0.5140 val_f1: 0.5140
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0145 lr: 0.01 train_loss: 0.7260 train_acc: 0.6857 train_f1: 0.6857 time: 0.3153s
+INFO:root:Epoch: 0145 val_loss: 1.4394 val_acc: 0.5060 val_f1: 0.5060
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0150 lr: 0.01 train_loss: 0.8032 train_acc: 0.6071 train_f1: 0.6071 time: 0.3147s
+INFO:root:Epoch: 0150 val_loss: 1.4320 val_acc: 0.5060 val_f1: 0.5060
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0155 lr: 0.01 train_loss: 0.6677 train_acc: 0.6643 train_f1: 0.6643 time: 0.3144s
+INFO:root:Epoch: 0155 val_loss: 1.4395 val_acc: 0.5080 val_f1: 0.5080
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0160 lr: 0.01 train_loss: 0.6956 train_acc: 0.6786 train_f1: 0.6786 time: 0.3163s
+INFO:root:Epoch: 0160 val_loss: 1.4498 val_acc: 0.5080 val_f1: 0.5080
+/workspace/anaconda3/envs/geo/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+INFO:root:Epoch: 0165 lr: 0.01 train_loss: 0.7454 train_acc: 0.6429 train_f1: 0.6429 time: 0.3143s
+INFO:root:Epoch: 0165 val_loss: 1.4625 val_acc: 0.5140 val_f1: 0.5140
+INFO:root:Early stopping
+INFO:root:Optimization Finished!
+INFO:root:Total time elapsed: 87.0507s
+INFO:root:Val set results: val_loss: 1.5007 val_acc: 0.5300 val_f1: 0.5300
+INFO:root:Test set results: test_loss: 1.5129 test_acc: 0.4830 test_f1: 0.4830
+INFO:root:Saved model in /workspace/xiongbo/hgcn/logs/nc/2021_5_25/23

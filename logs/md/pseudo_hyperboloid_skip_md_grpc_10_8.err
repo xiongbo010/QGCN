@@ -1,0 +1,4 @@
+  File "train.py", line 89
+    tot_params = sum([np.prod(p.size()) for p in model.parameters()])
+             ^
+SyntaxError: invalid syntax

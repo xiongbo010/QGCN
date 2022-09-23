@@ -1,0 +1,2 @@
+INFO:root:Using: cuda:1
+INFO:root:Using seed 3333.

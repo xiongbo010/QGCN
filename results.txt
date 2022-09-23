@@ -1,0 +1,38 @@
+
+Euc, 15-1, 14-2, 13-3, 1-15, 0-16
+0, 0.8638, 0.8367, 0, 0, 0,
+
+
+LP
+
+15 0.9344
+14 0.8686
+
+0 0.8393
+
+INFO:root:Saved model in /workspace/xiongbo/hgcn/logs/md/2021_4_25/9            GCN bio-diseasome  81.12
+INFO:root:Saved model in /workspace/xiongbo/hgcn/logs/md/2021_4_24/119          GCN bio-wormnet 92.17 skip
+
+
+INFO:root:Saved model in /workspace/xiongbo/hgcn/logs/md/2021_4_25/1            GCN bio-wormnet 85.93
+
+
+INFO:root:Saved model in /workspace/xiongbo/hgcn/logs/md/2021_4_25/3            GCN cs_phd  72.30
+INFO:root:Saved model in /workspace/xiongbo/hgcn/logs/md/2021_4_25/7            GCN cs_phd + skip 96.22
+
+
+INFO:root:Saved model in /workspace/xiongbo/hgcn/logs/md/2021_4_25/17           GCN tree_cycle 90.24
+INFO:root:Saved model in /workspace/xiongbo/hgcn/logs/md/2021_4_25/45           HGCN 94.94
+INFO:root:Saved model in /workspace/xiongbo/hgcn/logs/md/2021_4_26/2            8, 2
+
+
+
+
+
+
+
+
+
+
+
+
