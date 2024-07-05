@@ -1,4 +1,5 @@
 # Pseudo-Riemannian Graph Convolutional Networks
+[![Identifier](https://img.shields.io/badge/doi-10.18419%2Fdarus--3989-d45815.svg)](https://doi.org/10.18419/darus-3989)
 
 This repository is the official implementation of [Pseudo-Riemannian Graph Convolutional Networks](https://arxiv.org/abs/2106.03134) in PyTorch, based on [HGCN](https://github.com/HazyResearch/hgcn) implementation. 
 
